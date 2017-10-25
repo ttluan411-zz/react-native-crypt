@@ -1,9 +1,9 @@
-import React, { PureComponent } from 'react';
+import React, { Component } from 'react';
 import {
   addNavigationHelpers,
   StackNavigator,
   TabNavigator,
-  TabBarBottom,
+  TabBarBottom
 } from 'react-navigation';
 import { StatusBar, View, StyleSheet } from 'react-native';
 import { connect } from 'react-redux';
